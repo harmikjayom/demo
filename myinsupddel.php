@@ -35,7 +35,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>register here</title>
+	
 	</style>
     </style>
 </head>
