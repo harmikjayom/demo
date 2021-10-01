@@ -13,12 +13,7 @@ $conn=mysqli_connect("localhost","root","","crud")or die("connection aborted");
      {
 				while($row = mysqli_fetch_assoc($res)) 
 					?>
-				<tr>
-					<td><?php echo $row['id']?></td>
-					<td><?php echo $row['name']?></td>
-					<td><?php echo $row['add']?></td>
-					<td><?php echo $row['mob']?></td>
-				</tr>
+				
 			<?php }       
   }
    else
